@@ -37,10 +37,10 @@
     });
     require(['AbstractApp', 'UIHeader'], function (APP, UIHeader) {
 
-        window.APP = new APP({
-            UIHeader: UIHeader,
-            viewRootPath: viewRoot
-        });
-        window.APP.initApp();
+        // window.APP = new APP({
+            // UIHeader: UIHeader,
+            // viewRootPath: viewRoot
+        // });
+        // window.APP.initApp();
     });
 })();
